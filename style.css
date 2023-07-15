@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* text-align: center; */
+    background:#66e8cc;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 80%);
+    transition: all 0.3s linear;
+    padding: 32px;
+    width: 65%;
+    margin-left: 180px;
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+a{
+    text-decoration: none;
+    color: #c7d620;
+}
+
+
+.para {
+    position: relative;
+    bottom: 79px;
+    visibility: hidden;
+    left: 87px;
+    color: white;
+    font-style: italic;
+
+}
+.images{
+    display:flex ;
+    flex-wrap: wrap;
+}
+
+
+.img{
+    margin: 30px;
+    height: 228px;
+    border-radius: 42px;
+    
+}
+
+input[type="text"] {
+    margin-left: 240px;
+    width: 38%;
+    height: 35px;
+    padding:10px 10px 10px 10px ;
+    border-radius: 10px;
+
+}
+button {
+    background: #fff;
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    box-shadow: 0 2px 1px rgb(0 0 0 / 51%);
+    border-radius: 8px;
+    border: none;
+    background-color: #c7d620;
+}
+
+button:hover {
+    cursor: pointer;
+
+}
+.active{
+    background-color: rgba(70, 25, 25, 0.125);
+    border-color: #c8800c;
+    color: #000000;
+
+}
+
+
+.btn{
+
+    margin-left: 21pc;
+    margin-top: 1pc;
+
+}
+
+.show{
+    display: block;
+}
+i.fa-solid.fa-filter {
+    position: relative;
+    right: 32px;
+    opacity: 50%;
+}

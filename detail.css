@@ -1,0 +1,41 @@
+
+
+.container {
+    /* text-align: center; */
+    background:#39ed99;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 80%);
+    transition: all 0.3s linear;
+    padding: 32px;
+    width: 65%;
+    margin-left: 180px;
+    margin-top: 40px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+
+}
+h1{
+    text-align: center;
+}
+img{
+    height: 220px;
+    border-radius: 15px;
+    border: 1.5px solid #0084ff;
+}
+.back{
+    font-size: 24px;
+}
+.user_details{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.show{
+    display: block;
+}
